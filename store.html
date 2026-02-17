@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store | TKChi Art Studio</title>
+    <meta name="description" content="Shop tarot decks, art prints, and digital goods from TKChi Art Studio.">
+    
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Store | TKChi Art Studio">
+    <meta property="og:description" content="Shop tarot decks, art prints, and digital goods from TKChi Art Studio.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tkchi.studio/store.html">
+    <meta property="og:image" content="https://tkchi.studio/images/og-store.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="TKChi Art Studio Home">
+                <span class="logo-text">TKChi</span>
+            </a>
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="store.html" class="nav-link active" aria-current="page">Store</a></li>
+                    <li><a href="apps.html" class="nav-link">Apps</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header" aria-labelledby="store-heading">
+            <div class="container">
+                <h1 id="store-heading" class="page-title">Store</h1>
+                <p class="page-subtitle">Physical and digital goods from the studio.</p>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="section products-section" aria-labelledby="products-heading">
+            <div class="container">
+                <h2 id="products-heading" class="section-title visually-hidden">Products</h2>
+                <div class="products-grid">
+                    <article class="product-card" data-product-id="void-tarot" data-product-name="Void Tarot Deck" data-product-price="45">
+                        <div class="product-image">
+                            <img src="images/product-tarot.jpg" alt="Void Tarot Deck - Black box with geometric card designs visible" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Void Tarot Deck</h3>
+                            <p class="product-description">78 cards of industrial mysticism. Matte finish, gold edges.</p>
+                            <p class="product-price">$45.00</p>
+                            <button class="btn btn-primary add-to-cart" aria-label="Add Void Tarot Deck to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="sketches-vol1" data-product-name="Industrial Sketches Vol.1" data-product-price="28">
+                        <div class="product-image">
+                            <img src="images/product-sketches.jpg" alt="Industrial Sketches Vol.1 - Art book with mechanical drawings" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Industrial Sketches Vol.1</h3>
+                            <p class="product-description">64-page collection of preliminary works and concept art.</p>
+                            <p class="product-price">$28.00</p>
+                            <button class="btn btn-primary add-to-cart" aria-label="Add Industrial Sketches Vol.1 to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="digital-ritual" data-product-name="Digital Ritual Print" data-product-price="35">
+                        <div class="product-image">
+                            <img src="images/product-print.jpg" alt="Digital Ritual Print - Framed artwork showing geometric altar" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Digital Ritual Print</h3>
+                            <p class="product-description">Archival giclée print. 12" x 16", signed and numbered.</p>
+                            <p class="product-price">$35.00</p>
+                            <button class="btn btn-primary add-to-cart" aria-label="Add Digital Ritual Print to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="sticker-pack" data-product-name="App Icons Sticker Pack" data-product-price="12">
+                        <div class="product-image">
+                            <img src="images/product-stickers.jpg" alt="App Icons Sticker Pack - Sheet of vinyl stickers with app icons" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">App Icons Sticker Pack</h3>
+                            <p class="product-description">15 weatherproof vinyl stickers. 2" each, matte finish.</p>
+                            <p class="product-price">$12.00</p>
+                            <button class="btn btn-primary add-to-cart" aria-label="Add App Icons Sticker Pack to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Section -->
+        <section class="section cart-section" aria-labelledby="cart-heading">
+            <div class="container">
+                <h2 id="cart-heading" class="section-title">Your Cart</h2>
+                <div class="cart-container">
+                    <table class="cart-table" aria-label="Shopping cart items">
+                        <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart-items">
+                            <!-- Cart items will be populated by JavaScript -->
+                            <tr class="cart-empty">
+                                <td colspan="3" class="cart-empty-message">Your cart is empty.</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="cart-total-row">
+                                <th scope="row">Total</th>
+                                <td id="cart-total" colspan="2">$0.00</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="cart-actions">
+                        <button class="btn btn-secondary" id="clear-cart" aria-label="Clear all items from cart">
+                            Clear Cart
+                        </button>
+                        <button class="btn btn-primary" id="checkout-btn" aria-label="Proceed to checkout">
+                            Checkout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">&copy; 2026 TKChi Art Studio. All rights reserved.</p>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="legal/contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

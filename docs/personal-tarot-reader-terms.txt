@@ -1,0 +1,61 @@
+TERMS OF SERVICE - PERSONAL TAROT READER
+TKChi Art Studio
+Last Updated: February 16, 2026
+
+1. ACCEPTANCE OF TERMS
+
+By downloading, installing, or using Personal Tarot Reader ("the App"), you agree 
+to be bound by these Terms of Service. If you do not agree to these terms, do not 
+use the App.
+
+2. LICENSE
+
+TKChi Art Studio grants you a limited, non-exclusive, non-transferable, revocable 
+license to use the App for personal, non-commercial purposes.
+
+3. NOT PROFESSIONAL ADVICE
+
+The tarot readings and interpretations provided by the App are for entertainment 
+and self-reflection purposes only. They do not constitute professional, legal, 
+medical, or psychological advice. Always seek qualified professional advice for 
+important decisions.
+
+4. PROHIBITED USES
+
+You agree not to:
+- Reverse engineer, decompile, or disassemble the App
+- Remove or alter any proprietary notices
+- Use the App for any illegal purpose
+- Resell, redistribute, or sublicense the App
+
+5. DATA AND BACKUPS
+
+You are responsible for backing up your data. Since all data is stored locally on 
+your device, loss of device or app data is your responsibility. Use the export 
+features to create backups.
+
+6. DISCLAIMER OF WARRANTIES
+
+The App is provided "as is" without warranties of any kind. We do not guarantee 
+that the App will be error-free or uninterrupted.
+
+7. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law, TKChi Art Studio shall not be liable for 
+any indirect, incidental, special, consequential, or punitive damages.
+
+8. CHANGES TO TERMS
+
+We reserve the right to modify these terms at any time. Continued use of the App 
+after changes constitutes acceptance of the new terms.
+
+9. GOVERNING LAW
+
+These terms shall be governed by the laws of the jurisdiction in which TKChi Art 
+Studio operates.
+
+10. CONTACT
+
+For questions about these terms, please contact us at:
+Email: hello@tkchi.studio
+Web: https://tkchi.studio/legal/contact.html

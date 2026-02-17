@@ -1,0 +1,54 @@
+PRIVACY POLICY - PERSONAL TAROT READER
+TKChi Art Studio
+Last Updated: February 16, 2026
+
+1. INTRODUCTION
+
+TKChi Art Studio ("we," "our," or "us") is committed to protecting your privacy. 
+This Privacy Policy explains how Personal Tarot Reader handles your information.
+
+KEY POINT: We do not collect, store, or transmit your personal data to our servers.
+
+2. INFORMATION WE DO NOT COLLECT
+
+We do NOT collect:
+- Personal identification information (name, email, address)
+- Tarot readings or interpretations
+- Journal entries
+- Usage data or analytics
+- Device identifiers
+- Location data
+
+3. DATA STORAGE
+
+All data created in Personal Tarot Reader is stored LOCALLY ON YOUR DEVICE only. 
+This includes:
+- Your tarot readings
+- Journal entries
+- App preferences
+
+4. DATA SECURITY
+
+Your data is protected by your device's built-in security features. On supported 
+devices, app data may be encrypted using hardware-level encryption.
+
+5. THIRD-PARTY SERVICES
+
+Personal Tarot Reader does not integrate with any third-party services, 
+analytics, or advertising networks.
+
+6. CHILDREN'S PRIVACY
+
+Personal Tarot Reader is not directed at children under 13. We do not knowingly 
+collect any information from anyone.
+
+7. CHANGES TO THIS POLICY
+
+We may update this Privacy Policy from time to time. We will notify you of any 
+changes by posting the new policy on this page.
+
+8. CONTACT US
+
+If you have any questions about this Privacy Policy, please contact us at:
+Email: privacy@tkchi.studio
+Web: https://tkchi.studio/legal/contact.html

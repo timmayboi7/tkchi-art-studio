@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps | TKChi Art Studio</title>
+    <meta name="description" content="Discover apps in development at TKChi Art Studio. Personal Tarot Reader and Coloring With Friends - coming soon.">
+    
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Apps | TKChi Art Studio">
+    <meta property="og:description" content="Discover apps in development at TKChi Art Studio. Personal Tarot Reader and Coloring With Friends - coming soon.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tkchi.studio/apps.html">
+    <meta property="og:image" content="https://tkchi.studio/images/og-apps.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="TKChi Art Studio Home">
+                <span class="logo-text">TKChi</span>
+            </a>
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="store.html" class="nav-link">Store</a></li>
+                    <li><a href="apps.html" class="nav-link active" aria-current="page">Apps</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header" aria-labelledby="apps-heading">
+            <div class="container">
+                <h1 id="apps-heading" class="page-title">Apps</h1>
+                <p class="page-subtitle">Digital tools for ritual and creation.</p>
+            </div>
+        </section>
+
+        <!-- Apps List -->
+        <section class="section apps-section" aria-labelledby="apps-list-heading">
+            <div class="container">
+                <h2 id="apps-list-heading" class="section-title visually-hidden">Apps in Development</h2>
+                <div class="apps-list">
+                    <!-- Personal Tarot Reader -->
+                    <article class="app-card" aria-labelledby="ptr-title">
+                        <div class="app-icon" role="img" aria-label="Personal Tarot Reader app icon"></div>
+                        <div class="app-info">
+                            <h3 id="ptr-title" class="app-name">Personal Tarot Reader</h3>
+                            <p class="app-description">
+                                A private space for tarot readings. No accounts, no cloud storage, 
+                                no data collection. Your readings stay on your device, between you and the cards.
+                            </p>
+                            <div class="app-progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="Development progress: 60 percent">
+                                    <div class="progress-fill" style="width: 60%;"></div>
+                                </div>
+                                <span class="progress-text">60% Complete</span>
+                            </div>
+                            <a href="apps/personal-tarot-reader.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Coloring With Friends -->
+                    <article class="app-card" aria-labelledby="cwf-title">
+                        <div class="app-icon app-icon-cwf" role="img" aria-label="Coloring With Friends app icon"></div>
+                        <div class="app-info">
+                            <h3 id="cwf-title" class="app-name">Coloring With Friends</h3>
+                            <p class="app-description">
+                                Real-time collaborative coloring. Create together on shared canvases, 
+                                whether you're across the room or across the world.
+                            </p>
+                            <div class="app-progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" aria-label="Development progress: 35 percent">
+                                    <div class="progress-fill" style="width: 35%;"></div>
+                                </div>
+                                <span class="progress-text">35% Complete</span>
+                            </div>
+                            <a href="apps/coloring-with-friends.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="section newsletter-section" aria-labelledby="newsletter-heading">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 id="newsletter-heading" class="section-title">Stay Updated</h2>
+                    <p class="newsletter-text">Get notified when our apps launch.</p>
+                    <form class="newsletter-form" action="#" method="POST" aria-label="Newsletter signup">
+                        <label for="email" class="visually-hidden">Email address</label>
+                        <input type="email" id="email" name="email" class="newsletter-input" placeholder="your@email.com" required aria-required="true">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">&copy; 2026 TKChi Art Studio. All rights reserved.</p>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="legal/contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

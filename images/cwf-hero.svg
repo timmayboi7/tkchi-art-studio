@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="cwfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#242424"/>
+      <stop offset="50%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#242424"/>
+    </linearGradient>
+    <linearGradient id="paletteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007acc;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#005a99;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#cwfGrad)"/>
+  <!-- Background decorative elements -->
+  <circle cx="150" cy="150" r="100" fill="#007acc" opacity="0.03"/>
+  <circle cx="1050" cy="450" r="120" fill="#007acc" opacity="0.03"/>
+  <!-- Color palette -->
+  <g transform="translate(500, 200)">
+    <!-- Palette base -->
+    <ellipse cx="100" cy="120" rx="120" ry="60" fill="#2a2a2a" stroke="#007acc" stroke-width="2"/>
+    <ellipse cx="100" cy="115" rx="110" ry="55" fill="#333"/>
+    <!-- Paint blobs -->
+    <circle cx="50" cy="100" r="20" fill="#007acc" opacity="0.8"/>
+    <circle cx="90" cy="90" r="18" fill="#444" opacity="0.9"/>
+    <circle cx="130" cy="95" r="19" fill="#555" opacity="0.8"/>
+    <circle cx="160" cy="110" r="17" fill="#666" opacity="0.7"/>
+    <circle cx="100" cy="130" r="15" fill="#007acc" opacity="0.5"/>
+  </g>
+  <!-- Coloring book style outline drawing -->
+  <g transform="translate(750, 150)" opacity="0.4">
+    <rect x="0" y="0" width="150" height="200" rx="5" fill="none" stroke="#007acc" stroke-width="2"/>
+    <circle cx="75" cy="80" r="40" fill="none" stroke="#007acc" stroke-width="1.5"/>
+    <path d="M 75 40 L 75 120 M 35 80 L 115 80" stroke="#007acc" stroke-width="1"/>
+    <rect x="40" y="140" width="70" height="40" rx="3" fill="none" stroke="#007acc" stroke-width="1"/>
+  </g>
+  <!-- Left side brush strokes -->
+  <g transform="translate(200, 200)" opacity="0.5">
+    <rect x="0" y="0" width="15" height="100" rx="7" fill="#007acc" transform="rotate(-15)"/>
+    <rect x="30" y="10" width="12" height="80" rx="6" fill="#444" transform="rotate(-10)"/>
+    <rect x="55" y="5" width="14" height="90" rx="7" fill="#555" transform="rotate(-20)"/>
+  </g>
+  <!-- Decorative lines -->
+  <g opacity="0.2">
+    <line x1="100" y1="500" x2="300" y2="500" stroke="#007acc" stroke-width="2"/>
+    <line x1="900" y1="100" x2="1100" y2="100" stroke="#007acc" stroke-width="2"/>
+  </g>
+</svg>

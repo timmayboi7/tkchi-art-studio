@@ -1,0 +1,71 @@
+PRIVACY POLICY - COLORING WITH FRIENDS
+TKChi Art Studio
+Last Updated: February 16, 2026
+
+1. INTRODUCTION
+
+This Privacy Policy explains how Coloring With Friends collects, uses, and protects 
+your information when you use our collaborative coloring application.
+
+2. INFORMATION WE COLLECT
+
+Account Information:
+- Username (chosen by you)
+- Optional: Email address for account recovery
+
+Content:
+- Drawings and artwork created in the app
+- Canvas data during active sessions
+
+Technical Information:
+- Device type and operating system
+- App version
+- Anonymous usage statistics
+
+3. HOW WE USE YOUR INFORMATION
+
+- To provide real-time collaboration features
+- To save your artwork to your account
+- To improve app performance and features
+- To communicate important updates
+
+4. DATA SHARING
+
+We do not sell your personal information. We may share data:
+- With other participants in your shared canvases
+- With service providers who assist our operations
+- If required by law
+
+5. DATA RETENTION
+
+Your artwork is stored as long as you maintain your account. Temporary session 
+data is deleted after 30 days of inactivity.
+
+6. YOUR RIGHTS
+
+You have the right to:
+- Access your personal data
+- Request deletion of your account and data
+- Export your artwork
+- Opt out of non-essential communications
+
+7. SECURITY
+
+We use industry-standard encryption and security measures to protect your data. 
+However, no method of transmission over the Internet is 100% secure.
+
+8. CHILDREN'S PRIVACY
+
+Coloring With Friends is not intended for children under 13. We do not knowingly 
+collect information from children under 13.
+
+9. CHANGES TO THIS POLICY
+
+We may update this Privacy Policy periodically. We will notify you of significant 
+changes through the app or email.
+
+10. CONTACT US
+
+If you have questions about this Privacy Policy, please contact us at:
+Email: privacy@tkchi.studio
+Web: https://tkchi.studio/legal/contact.html

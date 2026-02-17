@@ -1,0 +1,71 @@
+DATA DELETION INSTRUCTIONS
+TKChi Art Studio
+Last Updated: February 16, 2026
+
+PERSONAL TAROT READER
+=====================
+
+Since Personal Tarot Reader stores all data locally on your device, deleting the 
+app will remove all associated data.
+
+iOS:
+1. Press and hold the Personal Tarot Reader app icon
+2. Tap "Remove App" or "Delete App"
+3. Confirm deletion
+
+Android:
+1. Go to Settings > Apps
+2. Find and select Personal Tarot Reader
+3. Tap "Uninstall"
+
+Export Before Deleting:
+If you wish to keep a record of your readings, use the Export feature:
+1. Open Personal Tarot Reader
+2. Go to Settings > Export Data
+3. Choose your preferred format (PDF or JSON)
+4. Save the file to your device or cloud storage
+
+COLORING WITH FRIENDS
+=====================
+
+Coloring With Friends stores data both locally and on our servers.
+
+Delete Account and All Data:
+1. Open Coloring With Friends
+2. Go to Settings > Account
+3. Tap "Delete Account"
+4. Confirm your decision
+
+This will permanently delete:
+- Your account and profile
+- All saved artwork
+- Collaboration history
+- All personal data
+
+Export Before Deleting:
+1. Go to Gallery
+2. Select the artwork you want to save
+3. Tap Export and choose format (PNG, SVG)
+
+REQUEST DELETION VIA EMAIL
+==========================
+
+If you cannot access the app to delete your account:
+1. Email us at privacy@tkchi.studio
+2. Include your username and associated email
+3. State that you wish to delete your account
+4. We will process your request within 30 days
+
+DATA RETENTION AFTER DELETION
+=============================
+
+- Your data is immediately removed from active systems
+- Backup copies are deleted within 90 days
+- Anonymous analytics data may be retained (cannot be linked to you)
+
+CONTACT
+=======
+
+Questions about data deletion?
+Email: privacy@tkchi.studio
+Web: https://tkchi.studio/legal/contact.html

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | TKChi Art Studio</title>
+    <meta name="description" content="Explore the digital art gallery of TKChi Art Studio. Industrial aesthetics, dark minimalism, and mystical imagery.">
+    
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Gallery | TKChi Art Studio">
+    <meta property="og:description" content="Explore the digital art gallery of TKChi Art Studio. Industrial aesthetics, dark minimalism, and mystical imagery.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tkchi.studio/gallery.html">
+    <meta property="og:image" content="https://tkchi.studio/images/og-gallery.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="TKChi Art Studio Home">
+                <span class="logo-text">TKChi</span>
+            </a>
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="gallery.html" class="nav-link active" aria-current="page">Gallery</a></li>
+                    <li><a href="store.html" class="nav-link">Store</a></li>
+                    <li><a href="apps.html" class="nav-link">Apps</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header" aria-labelledby="gallery-heading">
+            <div class="container">
+                <h1 id="gallery-heading" class="page-title">Gallery</h1>
+                <p class="page-subtitle">A collection of digital works exploring industry, mysticism, and form.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="section gallery-section" aria-label="Art gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <figure class="gallery-item">
+                        <button class="gallery-trigger" data-index="0" aria-label="View Void Structure full size">
+                            <img src="images/art1.jpg" alt="Void Structure - Abstract geometric composition with industrial elements" class="gallery-image" loading="lazy">
+                        </button>
+                        <figcaption class="gallery-caption">
+                            <h3 class="gallery-title">Void Structure</h3>
+                            <p class="gallery-description">Digital, 2025</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <button class="gallery-trigger" data-index="1" aria-label="View Ritual Machine full size">
+                            <img src="images/art2.jpg" alt="Ritual Machine - Dark mechanical forms arranged in ceremonial pattern" class="gallery-image" loading="lazy">
+                        </button>
+                        <figcaption class="gallery-caption">
+                            <h3 class="gallery-title">Ritual Machine</h3>
+                            <p class="gallery-description">Digital, 2025</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <button class="gallery-trigger" data-index="2" aria-label="View Steel Prophet full size">
+                            <img src="images/art3.jpg" alt="Steel Prophet - Industrial figure emerging from shadow" class="gallery-image" loading="lazy">
+                        </button>
+                        <figcaption class="gallery-caption">
+                            <h3 class="gallery-title">Steel Prophet</h3>
+                            <p class="gallery-description">Digital, 2024</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <button class="gallery-trigger" data-index="3" aria-label="View Echo Chamber full size">
+                            <img src="images/art4.jpg" alt="Echo Chamber - Recursive architectural forms in monochrome" class="gallery-image" loading="lazy">
+                        </button>
+                        <figcaption class="gallery-caption">
+                            <h3 class="gallery-title">Echo Chamber</h3>
+                            <p class="gallery-description">Digital, 2024</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+        <button class="lightbox-close" aria-label="Close lightbox">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image">
+            <span aria-hidden="true">&#8249;</span>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <figcaption class="lightbox-caption" id="lightbox-caption"></figcaption>
+        </div>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image">
+            <span aria-hidden="true">&#8250;</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">&copy; 2026 TKChi Art Studio. All rights reserved.</p>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="legal/contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

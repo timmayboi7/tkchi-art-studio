@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | TKChi Art Studio</title>
+    <meta name="description" content="Contact TKChi Art Studio for questions about our apps, art, or privacy policies.">
+    
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Contact | TKChi Art Studio">
+    <meta property="og:description" content="Contact TKChi Art Studio for questions about our apps, art, or privacy policies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tkchi.studio/legal/contact.html">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="../index.html" class="logo" aria-label="TKChi Art Studio Home">
+                <span class="logo-text">TKChi</span>
+            </a>
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="../store.html" class="nav-link">Store</a></li>
+                    <li><a href="../apps.html" class="nav-link">Apps</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header" aria-labelledby="contact-heading">
+            <div class="container">
+                <h1 id="contact-heading" class="page-title">Contact</h1>
+                <p class="page-subtitle">Questions, feedback, or just saying hello.</p>
+            </div>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="section contact-section" aria-labelledby="contact-info-heading">
+            <div class="container">
+                <h2 id="contact-info-heading" class="section-title visually-hidden">Contact Information</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3 class="contact-title">General Inquiries</h3>
+                        <p class="contact-description">Questions about our apps, art, or studio</p>
+                        <a href="mailto:hello@tkchi.studio" class="contact-link">hello@tkchi.studio</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3 class="contact-title">Privacy & Data</h3>
+                        <p class="contact-description">Data deletion requests, privacy questions</p>
+                        <a href="mailto:privacy@tkchi.studio" class="contact-link">privacy@tkchi.studio</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3 class="contact-title">Support</h3>
+                        <p class="contact-description">Technical issues with our apps</p>
+                        <a href="mailto:support@tkchi.studio" class="contact-link">support@tkchi.studio</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3 class="contact-title">Press</h3>
+                        <p class="contact-description">Media inquiries and press kits</p>
+                        <a href="mailto:press@tkchi.studio" class="contact-link">press@tkchi.studio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="section contact-form-section" aria-labelledby="form-heading">
+            <div class="container">
+                <div class="contact-form-container">
+                    <h2 id="form-heading" class="section-title">Send a Message</h2>
+                    <form class="contact-form" action="#" method="POST" aria-label="Contact form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required aria-required="true">
+                                <option value="">Select a topic</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="privacy">Privacy Question</option>
+                                <option value="support">App Support</option>
+                                <option value="press">Press Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Response Time -->
+        <section class="section response-section" aria-labelledby="response-heading">
+            <div class="container">
+                <div class="response-content">
+                    <h2 id="response-heading" class="section-title">Response Times</h2>
+                    <p>We typically respond within:</p>
+                    <ul class="response-list">
+                        <li><strong>Support issues:</strong> 24-48 hours</li>
+                        <li><strong>Privacy requests:</strong> 72 hours</li>
+                        <li><strong>General inquiries:</strong> 3-5 business days</li>
+                        <li><strong>Press inquiries:</strong> 2-3 business days</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">&copy; 2026 TKChi Art Studio. All rights reserved.</p>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
